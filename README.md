@@ -32,7 +32,10 @@ I strive to bridge the gap between exploratory data science and production-grade
 
 # Contents
 ## Kaggle Notebooks
+- [AB Testing](https://github.com/GeorgiosLymperis/data-science-portfolio/tree/main/kaggle-notebooks/ab-testing): **AB Testing** evaluating whether a new user experience improves user conversion.
 - [Price Elasticity with Regression](https://github.com/GeorgiosLymperis/data-science-portfolio/tree/main/kaggle-notebooks/Price%20Elasticity): Use **linear regression** to analyze car sales and get the demand elasticity curve using **GAM**.
+- [Digit Classification with CNN](https://github.com/GeorgiosLymperis/data-science-portfolio/tree/main/kaggle-notebooks/Digit%20classification): Use **CNN** to classify digits coming from hand-written sudoku.
+- [Amazon Review Sentiment Analysis](https://github.com/GeorgiosLymperis/data-science-portfolio/tree/main/kaggle-notebooks/Amazon%20Review%20Sentiment%20Analysis): Use **DistilBERT embeddings** with logistic regression for sentiment analysis of Amazon reviews.
 # Contact
 
 For collaboration, feedback, or opportunities in ML engineering or applied machine learning, feel free to reach out via LinkedIn or GitHub.
