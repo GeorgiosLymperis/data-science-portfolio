@@ -38,6 +38,9 @@ I strive to bridge the gap between exploratory data science and production-grade
 - [Digit Classification with CNN](https://github.com/GeorgiosLymperis/data-science-portfolio/tree/main/kaggle-notebooks/Digit%20classification): Use **CNN** to classify digits coming from hand-written sudoku.
 - [Amazon Review Sentiment Analysis](https://github.com/GeorgiosLymperis/data-science-portfolio/tree/main/kaggle-notebooks/Amazon%20Review%20Sentiment%20Classification): Use **DistilBERT embeddings** with logistic regression for sentiment analysis of Amazon reviews.
 - [IMBD Sentiment Analysis](https://github.com/GeorgiosLymperis/data-science-portfolio/tree/main/kaggle-notebooks/IMBD-sentiment-analysis): Compare **TF-IDF, zero-shot DeBERTa, fine-tuned BERT**, and prompt-based **FLAN-T5**, showing **FLAN-T5** achieves the best sentiment classification performance.
+
+## ML Algorithms
+- [KMeans](https://github.com/GeorgiosLymperis/data-science-portfolio/tree/main/algorithms/KMeans): Implementation of K-Means algorithm.
 # Contact
 
 For collaboration, feedback, or opportunities in ML engineering or applied machine learning, feel free to reach out via LinkedIn or GitHub.
