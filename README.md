@@ -41,6 +41,7 @@ I strive to bridge the gap between exploratory data science and production-grade
 
 ## ML Algorithms
 - [KMeans](https://github.com/GeorgiosLymperis/data-science-portfolio/tree/main/algorithms/KMeans): Implementation of K-Means algorithm.
+- [Linear Regression](https://github.com/GeorgiosLymperis/data-science-portfolio/tree/main/algorithms/Linear-Regression): Implementation of Linear Regression with gradient descent and OLS.
 # Contact
 
 For collaboration, feedback, or opportunities in ML engineering or applied machine learning, feel free to reach out via LinkedIn or GitHub.
