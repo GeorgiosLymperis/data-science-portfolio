@@ -32,6 +32,7 @@ I strive to bridge the gap between exploratory data science and production-grade
 
 # Contents
 ## Kaggle Notebooks
+- [Credit Risk](https://github.com/GeorgiosLymperis/data-science-portfolio/tree/main/kaggle-notebooks/Credit-Risk): Credit risk analysis of Lending Club.
 - [Text Similarity](https://github.com/GeorgiosLymperis/data-science-portfolio/tree/main/kaggle-notebooks/QQP%20Similarity): **TensorFlow** implementation and training of a **Siamese CNN** and a **Siamese RNN** to detect whether two questions are semantically equivalent.
 - [AB Testing](https://github.com/GeorgiosLymperis/data-science-portfolio/tree/main/kaggle-notebooks/AB-testing): **AB Testing** evaluating whether a new user experience improves user conversion.
 - [Price Elasticity with Regression](https://github.com/GeorgiosLymperis/data-science-portfolio/tree/main/kaggle-notebooks/Price%20Elasticity): Use **linear regression** to analyze car sales and get the demand elasticity curve using **GAM**.
