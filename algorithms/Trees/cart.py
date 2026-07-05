@@ -14,13 +14,28 @@ class Node:
 
 
 class DecisionTreeClassifier:
-    def __init__(self, max_depth=5, min_samples_split=2):
+    def __init__(self, max_depth=5, min_samples_split=2, max_features=None, random_state=None):
         self.root = None
         self.max_depth = max_depth
         self.min_samples_split = min_samples_split
+        self.max_features = max_features
+        self.random_state = random_state
 
     def fit(self, X, y):
+        n_features = X.shape[1]
+        self.n_features_to_sample = self._get_max_features_to_sample(n_features)
+        self._rng = np.random.default_rng(self.random_state)
         self.root = self._build_tree(X, y, depth=0)
+
+    def _get_max_features_to_sample(self, n_features):
+        if self.max_features is None:
+            return n_features
+        elif isinstance(self.max_features, int):
+            return min(self.max_features, n_features)
+        elif isinstance(self.max_features, float) and 0 <= self.max_features <= 1.0:
+            return max(1, round(self.max_features * n_features))
+        else:
+            raise ValueError("max_features should be None or int or float between 0 and 1. Got", self.max_features)
 
     def _build_tree(self, X, y, depth) -> Node:
         n_samples = y.shape[0]
@@ -58,7 +73,9 @@ class DecisionTreeClassifier:
         best_left_ind = None
         best_right_ind = None
 
-        for feature_index in range(X.shape[1]):
+        candidate_features = self._rng.choice(X.shape[1], size=self.n_features_to_sample, replace=False)
+
+        for feature_index in candidate_features:
             for thres in np.unique(X[:, feature_index]):
                 left_y, right_y, left_ind, right_ind = self._split_data(X, y, feature_index, thres)
                 left_y_len = left_y.shape[0]
@@ -106,15 +123,31 @@ class DecisionTreeClassifier:
         return predictions
 
 class DecisionTreeRegressor:
-    def __init__(self, max_depth=5, min_samples_split=2, min_variance=0.1):
+    def __init__(self, max_depth=5, min_samples_split=2, min_variance=0.1,
+                 max_features=None, random_state=None):
         self.root = None
         self.max_depth = max_depth
         self.min_samples_split = min_samples_split
         self.min_variance = min_variance
+        self.max_features = max_features
+        self.random_state = random_state
 
     def fit(self, X, y):
+        n_features = X.shape[1]
+        self.n_features_to_sample = self._get_max_features_to_sample(n_features)
+        self._rng = np.random.default_rng(self.random_state)
         self.min_variance *= self._variance(y)
         self.root = self._build_tree(X, y, depth=0)
+
+    def _get_max_features_to_sample(self, n_features):
+        if self.max_features is None:
+            return n_features
+        elif isinstance(self.max_features, int):
+            return min(self.max_features, n_features)
+        elif isinstance(self.max_features, float) and 0 <= self.max_features <= 1.0:
+            return max(1, round(self.max_features * n_features))
+        else:
+            raise ValueError("max_features should be None or int or float between 0 and 1. Got", self.max_features)
 
     def _build_tree(self, X, y, depth) -> Node:
         n_samples = y.shape[0]
@@ -150,14 +183,16 @@ class DecisionTreeRegressor:
         best_left_ind = None
         best_right_ind = None
 
-        for feature_index in range(X.shape[1]):
+        candidate_features = self._rng.choice(X.shape[1], size=self.n_features_to_sample, replace=False)
+
+        for feature_index in candidate_features:
             for thres in np.unique(X[:, feature_index]):
                 left_y, right_y, left_ind, right_ind = self._split_data(X, y, feature_index, thres)
                 left_y_len = left_y.shape[0]
                 right_y_len = right_y.shape[0]
                 if left_y_len == 0 or right_y_len == 0:
                     continue
-                weighted_variance = (left_y_len * self._variance(left_y) + 
+                weighted_variance = (left_y_len * self._variance(left_y) +
                                     right_y_len * self._variance(right_y)) / (
                                         left_y_len + right_y_len
                                     )
