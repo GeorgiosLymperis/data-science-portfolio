@@ -48,6 +48,7 @@ I strive to bridge the gap between exploratory data science and production-grade
 - [Random Forest](https://github.com/GeorgiosLymperis/data-science-portfolio/tree/main/algorithms/Trees): Implementation of Random Forest for classification and regression.
 - [Gradient Boosting Trees](https://github.com/GeorgiosLymperis/data-science-portfolio/tree/main/algorithms/Trees): Implementation of Gradient Boosting Trees for classification and regression.
 - [XGBoost](https://github.com/GeorgiosLymperis/data-science-portfolio/tree/main/algorithms/Trees): Implementation of XGBoost for classification and regression.
+- [Naive Bayes](https://github.com/GeorgiosLymperis/data-science-portfolio/tree/main/algorithms/Naive-Bayes): Implementation of Gaussian, Multinomial and Bernoulli Naive Bayes.
 # Contact
 
 For collaboration, feedback, or opportunities in ML engineering or applied machine learning, feel free to reach out via LinkedIn or GitHub.
