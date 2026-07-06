@@ -47,6 +47,7 @@ I strive to bridge the gap between exploratory data science and production-grade
 - [Decision Trees](https://github.com/GeorgiosLymperis/data-science-portfolio/tree/main/algorithms/Trees): Implementation of CART decision tree for classification and regression. 
 - [Random Forest](https://github.com/GeorgiosLymperis/data-science-portfolio/tree/main/algorithms/Trees): Implementation of Random Forest for classification and regression.
 - [Gradient Boosting Trees](https://github.com/GeorgiosLymperis/data-science-portfolio/tree/main/algorithms/Trees): Implementation of Gradient Boosting Trees for classification and regression.
+- [XGBoost](https://github.com/GeorgiosLymperis/data-science-portfolio/tree/main/algorithms/Trees): Implementation of XGBoost for classification and regression.
 # Contact
 
 For collaboration, feedback, or opportunities in ML engineering or applied machine learning, feel free to reach out via LinkedIn or GitHub.
