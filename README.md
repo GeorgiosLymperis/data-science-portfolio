@@ -42,7 +42,7 @@ I strive to bridge the gap between exploratory data science and production-grade
 
 ## ML Algorithms
 - [KMeans](https://github.com/GeorgiosLymperis/data-science-portfolio/tree/main/algorithms/KMeans): Implementation of K-Means algorithm.
-- [Linear Regression](https://github.com/GeorgiosLymperis/data-science-portfolio/tree/main/algorithms/Linear-Regression): Implementation of Linear Regression with gradient descent and OLS.
+- [Linear Regression](https://github.com/GeorgiosLymperis/data-science-portfolio/tree/main/algorithms/Linear-Regression): Implementation of Linear Regression, LASSO, Ridge Regression and Elastic Net with gradient descent and OLS.
 - [Support Vector Machines](https://github.com/GeorgiosLymperis/data-science-portfolio/tree/main/algorithms/SVM): Implementation of Linear SVM, Kernel SVM and One-vs-Rest, One-vs-One SVM.
 - [Decision Trees](https://github.com/GeorgiosLymperis/data-science-portfolio/tree/main/algorithms/Trees): Implementation of CART decision tree for classification and regression. 
 - [Random Forest](https://github.com/GeorgiosLymperis/data-science-portfolio/tree/main/algorithms/Trees): Implementation of Random Forest for classification and regression.
