@@ -52,6 +52,7 @@ I strive to bridge the gap between exploratory data science and production-grade
 - [Logistic Regression](https://github.com/GeorgiosLymperis/data-science-portfolio/tree/main/algorithms/Logistic-Regression): Implementation of Logistic Regression.
 - [Neural Networks](https://github.com/GeorgiosLymperis/data-science-portfolio/tree/main/algorithms/neural-networks): Implementation of a feedforward neural network (ReLU hidden layer, sigmoid output) trained with backpropagation.
 - [PCA](https://github.com/GeorgiosLymperis/data-science-portfolio/tree/main/algorithms/PCA): Implementation of Principal Component Analysis, Sparse PCA and Kernel PCA.
+- [Agglomerative Clustering](https://github.com/GeorgiosLymperis/data-science-portfolio/tree/main/algorithms/clustering): Implementation of Agglomerative Clustering.
 # Contact
 
 For collaboration, feedback, or opportunities in ML engineering or applied machine learning, feel free to reach out via LinkedIn or GitHub.
