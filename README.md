@@ -48,6 +48,7 @@ I strive to bridge the gap between exploratory data science and production-grade
 - [Random Forest](https://github.com/GeorgiosLymperis/data-science-portfolio/tree/main/algorithms/Trees): Implementation of Random Forest for classification and regression.
 - [Gradient Boosting Trees](https://github.com/GeorgiosLymperis/data-science-portfolio/tree/main/algorithms/Trees): Implementation of Gradient Boosting Trees for classification and regression.
 - [XGBoost](https://github.com/GeorgiosLymperis/data-science-portfolio/tree/main/algorithms/Trees): Implementation of XGBoost for classification and regression.
+- [Isolation Forest](https://github.com/GeorgiosLymperis/data-science-portfolio/tree/main/algorithms/Trees): Implementation of Isolation Forest.
 - [Naive Bayes](https://github.com/GeorgiosLymperis/data-science-portfolio/tree/main/algorithms/Naive-Bayes): Implementation of Gaussian, Multinomial and Bernoulli Naive Bayes.
 - [Logistic Regression](https://github.com/GeorgiosLymperis/data-science-portfolio/tree/main/algorithms/Logistic-Regression): Implementation of Logistic Regression.
 - [Neural Networks](https://github.com/GeorgiosLymperis/data-science-portfolio/tree/main/algorithms/neural-networks): Implementation of a feedforward neural network (ReLU hidden layer, sigmoid output) trained with backpropagation.
