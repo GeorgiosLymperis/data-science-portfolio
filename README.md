@@ -56,6 +56,7 @@ I strive to bridge the gap between exploratory data science and production-grade
 - [PCA](https://github.com/GeorgiosLymperis/data-science-portfolio/tree/main/algorithms/PCA): Implementation of Principal Component Analysis, Sparse PCA and Kernel PCA.
 - [Agglomerative Clustering](https://github.com/GeorgiosLymperis/data-science-portfolio/tree/main/algorithms/clustering): Implementation of Agglomerative Clustering.
 - [K-NN](https://github.com/GeorgiosLymperis/data-science-portfolio/tree/main/algorithms/kNN): Implementation of K-Nearest Neighbors.
+- [Gaussian Mixture](https://github.com/GeorgiosLymperis/data-science-portfolio/tree/main/algorithms/GMM): Implementation of Gaussian Mixture.
 # Contact
 
 For collaboration, feedback, or opportunities in ML engineering or applied machine learning, feel free to reach out via LinkedIn or GitHub.
